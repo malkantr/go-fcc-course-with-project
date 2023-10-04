@@ -1,0 +1,10 @@
+@host = http://localhost:8080/v1/
+@api =posts
+@contentType = application/json
+
+###
+
+GET {{host}}{{api}}
+Authorization: ApiKey 09dbaf4ce408baf8e5728bf9eedd32984d649144bf2c804816c8272d5e7858e8
+
+###

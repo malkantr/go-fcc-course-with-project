@@ -1,0 +1,18 @@
+@host = http://localhost:8080/v1/
+@api =feed_follows
+@contentType = application/json
+
+###
+
+GET {{host}}{{api}}
+Authorization: ApiKey 09dbaf4ce408baf8e5728bf9eedd32984d649144bf2c804816c8272d5e7858e8
+
+###
+
+POST {{host}}{{api}}
+Content-Type: {{contentType}}
+Authorization: ApiKey 09dbaf4ce408baf8e5728bf9eedd32984d649144bf2c804816c8272d5e7858e8
+
+{
+  "feed_id":"16051854-98f4-4e21-99e4-dab0fa2932dd"
+}

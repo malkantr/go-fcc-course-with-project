@@ -1,0 +1,8 @@
+.DS_Store
+
+.vscode/
+mds/
+# vendor/
+rssagg
+.env
+# http/
